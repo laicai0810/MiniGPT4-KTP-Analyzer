@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-selfcheck.json
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+output/
+*.csv
+*.jsonl
+processed_images_gender/
+
+# Local config & models (Do not upload large model files to Git)
+checkpoints/
+pretrained_models/
